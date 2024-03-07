@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/ui"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1.9755   :1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+
+
+
+            <ImageView
+
+                android:id="@+id/makananView"
+                android:layout_width="129dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/soto"
+                app:layout_constraintBottom_toBottomOf="@id/background"
+                app:layout_constraintEnd_toStartOf="@id/makananDescription"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/background"
+
+                android:scaleType="centerCrop"
+
+                />
+
+            <TextView
+                android:id="@+id/makananName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2B"
+                app:layout_constraintEnd_toEndOf="@id/background"
+                app:layout_constraintStart_toEndOf="@id/makananView"
+                app:layout_constraintTop_toTopOf="@id/background"></TextView>
+
+    <TextView
+        android:layout_marginBottom="30dp"
+        android:id="@+id/makananDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:maxWidth="210dp"
+        android:text="YoRHa No.2 Type B, or just 2B, is one of the protagonists of NieR:Automata. She is a YoRHa android created to battle the machine lifeforms that have invaded the planet on behalf of the surviving humans. She served during the 14th Machine War."
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/background"
+        app:layout_constraintEnd_toEndOf="@id/background"
+        app:layout_constraintStart_toEndOf="@id/makananView"
+        app:layout_constraintTop_toBottomOf="@id/makananName"
+></TextView>
+</androidx.constraintlayout.widget.ConstraintLayout>

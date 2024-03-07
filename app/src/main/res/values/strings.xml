@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">RecyclerView</string>
+    
+    <string-array name="makanan_txt">
+        <item>Soto Semarang</item>
+        <item>Ayam Goreng Gandum</item>
+        <item>Nasi Goreng Surabaya</item>
+        <item>Mi Kuah Tek Tek</item>
+        <item>Mi Bandung</item>
+        <item>Capcay Kuah</item>
+        <item>Tahu Kecap Kacang</item>
+    </string-array>
+
+    <string-array name="makanan_description_tt">
+        <item>Soto Semarang: Soto adalah masakan khas Indonesia berupa sup dengan berbagai bahan seperti daging (ayam, sapi, atau kambing), bihun, telur, dan potongan kentang. Soto Semarang merupakan variasi soto yang berasal dari kota Semarang, Jawa Tengah. Biasanya disajikan dengan tambahan sambal dan jeruk nipis.</item>
+        <item>Ayam Goreng Gandum: Ayam goreng adalah hidangan ayam yang digoreng hingga kecokelatan dan renyah. Ayam goreng gandum adalah variasi ayam goreng yang dilapisi dengan tepung gandum sebelum digoreng, memberikan tekstur yang lebih renyah.</item>
+        <item>Nasi Goreng Surabaya: Nasi goreng adalah hidangan nasi yang digoreng bersama bumbu dan tambahan lainnya seperti telur, daging, atau seafood. Nasi goreng Surabaya adalah variasi nasi goreng yang berasal dari Surabaya, Jawa Timur. Biasanya disajikan dengan irisan mentimun, tomat, dan kerupuk.</item>
+        <item>Mi Kuah Tek Tek: Mi kuah adalah hidangan mie yang disajikan dalam kuah kaldu, biasanya dengan tambahan daging, sayuran, dan telur. Mi Kuah Tek Tek adalah variasi mi kuah yang memiliki rasa khas, mungkin dengan tambahan bumbu atau jenis mie tertentu.</item>
+        <item>Mi Bandung: Mi Bandung adalah hidangan mie khas Indonesia yang berasal dari Kota Bandung, Jawa Barat. Mi Bandung biasanya disajikan dalam kuah kental yang terbuat dari udang kering, dimasak bersama dengan mie, sayuran, telur, dan daging seperti daging sapi atau udang.</item>
+        <item>Capcay Kuah: Capcay adalah hidangan tumis sayuran yang berasal dari Tiongkok. Capcay kuah adalah variasi capcay yang disajikan dalam kuah, biasanya dengan tambahan daging atau seafood.</item>
+        <item>Tahu Kecap Kacang: Tahu kecap kacang adalah hidangan tahu yang dimasak dengan kecap manis dan saus kacang. Tahu biasanya dipotong-potong dan direbus bersama dengan bumbu-bumbu lain seperti bawang, cabai, dan gula.</item>
+    </string-array>
+    
+</resources>
